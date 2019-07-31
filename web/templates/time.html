@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="../static/timescript.js"></script>
+    <link rel="stylesheet" href="../static/stylesheet.css?q=128054978"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,300,700" rel="stylesheet">
+</head>
+<body onload="startTime()">
+<h2 id="txt"></h2>        
+
+<div>
+    <form action="update.php" method="post">
+    
+        
+
+      
+
+      <div id="div1" class="division"> <label for="name1">Pill-1</label>
+        <br>
+        
+
+        <label for="numberpills1m">Number of pills (morning)</label>
+        <br>
+        <select name="numberpills1m" id="numberpills1m">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour1m">Time</label>
+        <br>
+        <input id="hour1m" type="text" name="hour1m" placeholder="00:00 (00-24)">
+        <br>
+
+         <label for="numberpills1a">Number of pills (afternoon)</label>
+        <br>
+        <select name="numberpills1a" id="numberpills1a">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour1a">Time</label>
+        <br>
+        <input id="hour1a" type="text" name="hour1a" placeholder="00:00 (00-24)">
+        <br>
+
+         <label for="numberpills1n">Number of pills (night)</label>
+        <br>
+        <select name="numberpills1n" id="numberpills1n">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour1n">Time</label>
+        <br>
+        <input id="hour1n" type="text" name="hour1n" placeholder="00:00 (00-24)">
+        <br>
+
+        
+    </div>   <div id="div2" class="division">
+
+ <label for="name2">Pill-2</label>
+        <br>
+        
+
+        <label for="numberpills2m">Number of pills (morning)</label>
+        <br>
+        <select name="numberpills2m" id="numberpills2m">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour2m">Time</label>
+        <br>
+        <input id="hour2m" type="text" name="hour2m" placeholder="00:00 (00-24)">
+        <br>
+
+         <label for="numberpills2a">Number of pills (afternoon)</label>
+        <br>
+        <select name="numberpills2a" id="numberpills2a">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour2a">Time</label>
+        <br>
+        <input id="hour2a" type="text" name="hour2a" placeholder="00:00 (00-24)">
+        <br>
+
+         <label for="numberpills2n">Number of pills (night)</label>
+        <br>
+        <select name="numberpills2n" id="numberpills2n">
+     <option value="0">0</option>       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+   <option value="5">5</option>     </select>
+        <br>
+
+        <label for="hour2n">Time</label>
+        <br>
+        <input id="hour2n" type="text" name="hour2n" placeholder="00:00 (00-24)">
+        <br>
+        
+        <br>   </div>   <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br> <br><br><br><br><br><br><br><br><br>
+<div align="center"><input type="submit" name="form" value="Add Time"/></div>
+    </form>
+    <br>
+   </div> 
+</body>
+</html>
